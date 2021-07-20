@@ -56,14 +56,7 @@ Output:
 
 export function makeSpanishLanguageArray(arr) {
     let myArr=[];
-    let ele={};
-    arr.forEach(element => {
-        ele['nombre'] = element.name;
-        ele['tipo'] = element.type;
-        myArr.push(ele);
-        console.log(ele);
-        
-    });
+   
 return myArr;
 }
 
