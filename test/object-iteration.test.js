@@ -32,13 +32,13 @@ skip('should return an object with screaming keys', (expect) => {
 
 
 
-skip('should make a string from the keys', (expect) => {
+test('should make a string from the keys', (expect) => {
     //Arrange
     // Set up your arguments and expectations    
     //Act 
     // Call the function you're testing and set the result to a const
     const actual = makeWeirdStringFromKeys(pet);
-
+    console.log(actual);
     const shouldBeTrue = actual.includes('name') && actual.includes('age') && actual.includes('type');  
     //Expect
     // Make assertions about what is expected versus the actual result

@@ -24,7 +24,10 @@ etc
 */
 
 export function makeWeirdStringFromKeys(someObject) {
-    return '';
+    
+    let x  = Object.values(someObject);
+    let str = `${x[0]}${x[1]}${x[2]}`;
+    return str ;
 }
 
 

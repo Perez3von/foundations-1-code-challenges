@@ -19,7 +19,12 @@ Output:
 */
 
 export function makeArrayOfNamesWithMap(arr) {
-    return [];
+    let map1 = [];
+     arr.map(function(e){
+
+      map1.push(e.name);
+    })
+    return map1;
 }
 
 /*
@@ -33,7 +38,7 @@ Output:
 ]*/
 
 export function makeArrayWithIsHungry(arr) {
-    return [];
+ 
 }
 
 /*
